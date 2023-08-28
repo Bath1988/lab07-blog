@@ -10,7 +10,9 @@ routes.connect = (app) => {
   // Use the index controller for /
   app.use('/', index);
   // TODO: Use the posts controller for /posts
-  
+  app.use('/posts',posts);
 };
 
 module.exports = routes;
+
+// I commit changes up to here and test wether git working fine
